@@ -1,0 +1,35 @@
+.search-button {
+    width: 80px;
+    height: 35px;
+    cursor: pointer;
+    font-size: 0.7rem;
+    font-weight: bold;
+    border: 1px solid #000;
+    text-align: center;
+    &:hover {
+        border-radius: 30px;
+        background-color: rgba(126, 107, 82, 0.855);
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .search-button {
+        width: 70px;
+        font-size: 0.64rem;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .search-button {
+        width: 60px;
+        font-size: 0.56rem;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .search-button {
+        width: 35px;
+        height: 25px;
+        font-size: 0.48rem;
+    }
+}

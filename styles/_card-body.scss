@@ -1,0 +1,12 @@
+.card-body {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 30px 15px;
+    width: 90%;
+    height: 90%;
+    &__img {
+        margin-right: 30px;
+    }
+}

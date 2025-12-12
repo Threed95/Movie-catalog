@@ -1,0 +1,10 @@
+.main-content {
+    padding: 30px 0;
+    border-bottom: 2px solid #000;
+}
+
+@media screen and (max-width: 768px) {
+    .main-content {
+        border: none;
+    }
+}
