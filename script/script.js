@@ -3,7 +3,7 @@ let allMoviesData = [];
 
 
 document.addEventListener('DOMContentLoaded', () => {
-    fetch('http://localhost:3000/movies')
+    fetch('movies-pi-murex.vercel.app')
         .then(response => response.json())
         .then(data => {
             allMoviesData = data;
